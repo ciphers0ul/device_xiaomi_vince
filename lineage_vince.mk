@@ -22,10 +22,6 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Flags
 TARGET_BOOT_ANIMATION_RES := 720
 
-# Build
-BUILD_USERNAME := neophyte
-BUILD_HOSTNAME := neophyte_server
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
 PRODUCT_NAME := lineage_vince
